@@ -1,0 +1,74 @@
+.hero-section{
+    background: url(../../images/banners/hero.jpg) no-repeat center;
+    background-size: cover;
+
+    height: 500px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.hero-overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 6rem;
+}
+
+.hero-content{
+    color: var(--cor-branca);
+    max-width: 360px;
+    text-align: center;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 16px;
+}
+
+.hero-content .hero-title{
+    font-size: 1.87rem;
+    margin-bottom: 40px;
+    margin: 0 0 0.5rem;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 3px;
+}
+
+.hero-content .hero-subtitle{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.btn{
+    padding: 10px 20px;
+    width: 161px;
+    height: 48px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 25px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.btn-outline{
+    border: 2px solid var(--cor-branca);
+    color: var(--cor-branca);
+    background-color: transparent;
+}
+
+.btn-filled{
+    border: 2px solid var(--cor-branca);
+    color: var(--cor-secundaria);
+    background-color: var(--cor-branca);
+}
+
+.btn:hover{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branca);
+    border-color: var(--cor-secundaria);
+}
