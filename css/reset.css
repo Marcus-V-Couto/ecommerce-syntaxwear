@@ -1,3 +1,5 @@
+/* Reset CSS baseado no reset do Andy Bell */
+
 /* Box sizing rules */
 *,
 *::before,
@@ -21,19 +23,10 @@ dd {
 	margin: 0;
 }
 
-/* Remove default margin */
-* {
-  margin: 0;
-  padding: 0;
-  font: inherit;
-}
-
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul[role='list'],
 ol[role='list'] {
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 /* Set core root defaults */
@@ -42,10 +35,6 @@ html:focus-within {
 }
 
 /* Set core body defaults */
-html,
-body {
-  height: 100%;
-}
 
 body {
   min-height: 100vh;
@@ -56,6 +45,17 @@ body {
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+ol {
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
 /* Make images easier to work with */

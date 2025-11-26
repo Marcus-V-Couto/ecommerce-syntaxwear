@@ -1,4 +1,5 @@
 body {
     font-family: var(--fonte-principal);
-    color: #333333;
+    color: var(--cor-cinza-escuro);
+    background-color: var(--cor-preta);
 }
